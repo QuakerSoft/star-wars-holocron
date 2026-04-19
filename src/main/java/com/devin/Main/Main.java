@@ -11,9 +11,7 @@ public class Main {
         SearchService searchService = new SearchService();
         int width = 40;
         int choice = 0;
-
-        System.out.println("Test");
-
+        
         String name;
         Scanner scan = new Scanner(System.in);
         System.out.println("=".repeat(width));
