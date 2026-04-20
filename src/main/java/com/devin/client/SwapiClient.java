@@ -34,23 +34,4 @@ public class SwapiClient {
     public String searchPlanet(String name)throws Exception{
         return search("planets", name);
     }
-//    public String searchCharacter(String name) throws Exception {
-//        HttpClient client = HttpClient.newHttpClient();
-//        HttpRequest request = HttpRequest.newBuilder()
-//                .uri(URI.create("https://swapi.dev/api/people/?search=" + name))
-//                .GET()
-//                .build();
-//
-//        HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
-//        return response.body();
-//    }
-//    public String searchPlanet(String planet_name)throws Exception{
-//        HttpClient client = HttpClient.newHttpClient();
-//        HttpRequest request = HttpRequest.newBuilder()
-//                .uri(URI.create("https://swapi.dev/api/planets/?search=" + planet_name))
-//                .GET()
-//                .build();
-//        HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
-//        return response.body();
-//    }
 }
