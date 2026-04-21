@@ -2,16 +2,12 @@ package com.devin.Main;
 import com.devin.Service.SearchService;
 
 import java.util.Scanner;
-/**
- * Hello world!
- *
- */
 public class Main {
     public static void main( String[] args ) throws Exception {
         SearchService searchService = new SearchService();
         int width = 40;
         int choice = 0;
-        
+
         String name;
         Scanner scan = new Scanner(System.in);
         System.out.println("=".repeat(width));
